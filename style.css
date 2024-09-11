@@ -1,0 +1,232 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.first-section{
+    display: flex;
+    background:linear-gradient(to right,rgb(51, 146, 191),aqua);
+    height: 600px;
+    width: auto;
+}
+.first-section p{
+    font-size: 20px;
+}
+.first-div{
+    padding: 8%;
+    color:white;
+    padding-left:15%;
+    padding-right: 4%;
+}
+.first-div h1{
+    font-size: 550%;
+    font-weight: 900;
+    border-bottom: 10px dashed royalblue;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.third-div{
+    padding: 8% 4%;
+    text-align: center;
+    color:white;
+}
+.third-div h1{
+    font-size: 60px;
+    color:white;
+    padding-top: 40px;
+}
+.third-div p{
+    padding-top: 10px;
+}
+.image-div img{
+    border: 1px solid white;
+    border-radius: 250px;
+    position: relative;
+    margin-top: 8%;
+}
+.second-section-div{
+    display: flex;
+    margin: 7% 7%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px aquamarine;
+}
+.box{
+    margin: 1% 2%;
+}
+.box-hover{
+    transform: translateY(-15px);
+    transition: 1s;
+}
+.my-serv{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(0, 255, 255);
+}
+
+.service{
+    text-align: center;
+}
+.third-section-main-div{
+    display: flex;
+    padding-left:20px ;
+    margin-top: 2%;
+}
+#third-section-middle-div{
+    height: 450px;
+    margin-top:1% ;
+    padding-top:2% ;
+    background-color: rgb(5, 194, 250);
+    color: white;
+    box-shadow: 0px 0px 30px #08d3f2;
+}
+.third-section-div{
+    background-color: rgb(51, 146, 191);
+    height: 400px;
+    width: 330px;
+    margin: 4% 2% 2% 2%;
+    padding-bottom: 1%;
+    border-radius: 15px;
+}
+#third-section-middle-div img{
+    padding: 25% 30% 4% 30%;
+}
+.third-section-div img{
+    padding: 10% 30%;
+}
+.third-section-main-div{
+    text-align: center;
+    padding: 6%;
+    font-size: 120%;
+}
+.third-section-div{
+    text-align: center;
+}
+.third-section-div a{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 15px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: rgb(5, 194, 250);
+    font-display: inline-block;
+    border-radius: 10px;
+}
+.last-container-div{
+    margin-top: 6%;
+    display: flex;
+    height: 650px;
+    width: 80%;
+    background-color: rgb(173, 217, 234);
+}
+.last{
+    margin: 8% 4% 4% 23%;
+    width: 600px;
+    height: 600px;
+}
+.last-container-div img{
+    margin: 0% 4% 4% 6% ;
+}
+.last-container-div h1{
+    font-size: 70px;
+    color: rgb(red, green, blue);
+    padding: 2% 2% 6% 0%;
+    border-bottom: 10px dashed rgb(5, 194, 250);
+    width: 350px;
+}
+.last-container-div p{
+    padding: 6% 0%;
+    font-size: 20px;
+
+}
+.last-container-div a{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 15px;
+    color: wheat;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: rgb(5, 194, 250);
+    display: inline-block;
+    border-radius: 10px;
+}
+.b{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 15px;
+    background-image: linear-gradient(rgb(5, 194, 250),rgb(53, 56, 197));
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    border-radius: 10px;
+}
+.btn:hover{
+    transform: translateY(-15px);
+    transform: 1s;
+}
+footer{
+    text-align: center;
+    font-size: 15px;
+    margin: 10% 8% 0% 8%;
+}
+.first-section{
+    display: grid;
+   grid-template-columns:repeat(3,1fr);
+}
+.first-div{
+   border-radius: 7px;
+   padding: 15px;
+}  
+.image-div{
+   border-radius: 7px;
+   padding: 15px;
+} 
+.third-div{
+   border-radius: 7px;
+   padding: 15px;
+} 
+ @media screen and (max-width:576px){
+   .first-section{
+       display:flex;
+       flex-direction: column;
+   }
+   .first-div{
+       width: 100%;
+       padding: 15px;
+       background-color: rgb(108, 151, 151);
+   }
+   .image-div{
+       width: 100%;
+       padding: 15px;
+   }
+   .third-div{
+       width: 100%;
+       padding: 15px;
+       background-color: rgb(108, 151, 151);
+   }
+
+ }
+ .second-section-div{
+   display: grid;
+   grid-template-columns:repeat(7,1fr);
+ }
+ .box{
+    display: flex;
+    box-shadow: 10PX 10PX 10PX paleturquoise;
+    width: 58%;
+    margin-left: 2%;
+    padding-left: 10px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    border: solid rgb(91, 91, 238);
+ }
+ @media screen and (max-widt:576px){
+   .second-section-div{
+       display:flex;
+       flex-direction: column;
+   }
+   .box{
+      display: flex;
+      flex-direction: column;
+   }
+ }
